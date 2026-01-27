@@ -6,7 +6,11 @@ qui va instacier les attribut et les methode qui defenie sur cette class
 
 ######## 2. Pourquoi est-il problématique d'avoir des classes sans méthodes ?
 
-
+le problem c'est le class doit etre une les attributes et les methode ca nour perment de travaillez avec le 
+mais ci il est contient seulement les attribut c'est ca une data holder not a class 
 
 
 ######### 3. Expliquer le principe de responsabilité unique 
+
+wich mean's the class should have one specefique job to do not include everything it will be 
+hard to maintain hard to read also so that we separe the responsibilities between classes to make it easier to read and maintain 

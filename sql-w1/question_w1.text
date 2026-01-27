@@ -1,0 +1,13 @@
+1. Quelle est la différence entre DDL (CREATE, ALTER) et DML (INSERT, UPDATE,
+DELETE) ?
+
+the ddl ther job is to define the structure of the table and the stored inside it 
+while the dml is to modify that structure also the dta stored by the DDL
+
+2. À quoi sert une clé primaire ?
+
+(primary key) is column in the data base that is uniqe and can t be null it make that row unique and special if we want to work with speciali with th foreign keys
+
+3. Comment filtre-t-on des données avec la clause WHERE ?
+
+when you select a data from a table you want to add a condition that specify tha things you're looking for so that we use wher to add a condition and make you search more specifique
