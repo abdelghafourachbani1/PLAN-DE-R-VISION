@@ -1,4 +1,4 @@
-1. Challenge 1 : Écrire la requête CREATE TABLE pour une table Produits (id, nom,
+1. Écrire la requête CREATE TABLE pour une table Produits (id, nom,
 prix, stock).
 
 CREATE TABLE Produits(
