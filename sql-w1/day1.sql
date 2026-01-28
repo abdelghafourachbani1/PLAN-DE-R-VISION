@@ -24,3 +24,16 @@ WHERE id = 2;
 
 
 DELETE FROM Produits WHERE stock = 0;
+
+1. Challenge 1 : Écrire la requête pour afficher le nombre total de commandes.
+
+SELECT COUNT(*) FROM commandes ;
+
+2. Challenge 2 : Écrire la requête pour calculer le prix moyen de tous les produits.
+
+SELECT AVG(produit_prix) FROM produit;
+
+3. Challenge 3 : Écrire la requête pour trouver le montant de la commande la
+plus chère.
+
+SELECT MAX(commande_prix) FROM commande ; 

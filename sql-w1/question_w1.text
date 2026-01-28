@@ -10,4 +10,21 @@ while the dml is to modify that structure also the dta stored by the DDL
 
 3. Comment filtre-t-on des données avec la clause WHERE ?
 
-when you select a data from a table you want to add a condition that specify tha things you're looking for so that we use wher to add a condition and make you search more specifique
+when you select a data from a table you want to add a condition that specify tha things you are looking for so that we use wher to add a condition and make you search more specifique
+
+
+
+1. À quoi servent les fonctions COUNT, SUM, et AVG ?
+
+thore are agregation function allows us to do many mathamtique operation and make them easier
+
+2. Peut-on utiliser COUNT(*) et COUNT(colonne) de manière interchangeable ?
+Pourquoi ?
+
+when we do count(*) and count(column) it specify a 
+
+3. Comment MAX et MIN peuvent-ils être utilisés sur des dates ou des chaînes de
+caractères ?
+
+we can use them in dates buy comaring wich one is bigger then the other 
+or we can count the different betwen that date and the current one 
