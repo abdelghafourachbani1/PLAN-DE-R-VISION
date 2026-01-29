@@ -1,0 +1,13 @@
+1. Quelle est la différence entre une classe et un objet ?
+
+l'object c'est une instance pour le class 
+est le class c'est une blueprint ou une structure l'object folow pour fair l'instance
+
+2. À quoi sert le mot-clé $this ?
+
+this reverse to the object we're your in and using it you can access to there methods
+
+3. Quel est le rôle du constructeur (__construct) ?
+
+constructure est une magic method it calls automatiquement when you creat an instance from the class 
+using it you can define the attributes you set in the parameter of  the magic method 
