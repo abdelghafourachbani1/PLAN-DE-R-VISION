@@ -6,17 +6,15 @@ marque et le modèle lors de la création de l'objet. -->
 class Voiture {
     private $marque;
     private $model;
-    private $vitess;
+    private $vitess = 0;
 
     public function __construct(string $marque,int $model) {
         $this->marque = $marque;
         $this->model = $model;
     }
 
-    $vitess = 0;
-
-    public function () {
-        $vitess += 1;
+    public function acceler (int $amout) {
+        $vitess += $amout;
     }
 }
 
@@ -25,4 +23,6 @@ class Voiture {
 méthodes pour vérifier leur fonctionnement. -->
 
 $v1 = new Voiture('mercedes',2025);
+$v1->acceler(15);
 $v2 = new Voiture('bmw',2023);
+$v2->acceler(20);
