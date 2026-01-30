@@ -11,3 +11,20 @@ this reverse to the object we're your in and using it you can access to there me
 
 constructure est une magic method it calls automatiquement when you creat an instance from the class 
 using it you can define the attributes you set in the parameter of  the magic method 
+
+1. Qu’est-ce que l’encapsulation ? Quel est son but ?
+
+we do encapsulation to potect the attribute and stop acces to them from evrywhere 
+only using setters and getters 
+
+2. Quelle est la différence entre public, private et protected ?
+
+public = you can access to it from averywhere 
+private = you can acces to it only when you inside the class
+protected = you can access to it in the classwhere she defined also in the children class (herited from this class)
+
+3. À quoi servent les getters et setters ? Est-ce toujours nécessaire d'en avoir pour
+chaque attribut ?
+
+using them we can acces to the privat and the protected attributes 
+but they are useless when the attributes are public
