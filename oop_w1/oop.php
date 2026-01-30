@@ -1,18 +1,3 @@
-<!-- Challenge 1 : Créer une classe Voiture avec 3 attributs (marque, modele,
-vitesse) et une méthode accelerer() qui augmente la vitesse -->
-<!-- Challenge 2 : Ajouter un constructeur à la classe Voiture pour initialiser la
-marque et le modèle lors de la création de l'objet. -->
-<!-- 3. Challenge 3 : Instancier deux objets de la classe Voiture et appeler leurs
-méthodes pour vérifier leur fonctionnement. -->
-
-<!-- 1. Challenge 1 : Modifier la classe Voiture : mettre l'attribut vitesse en private.
-2. Challenge 2 : Créer un getter getVitesse() et un setter setVitesse(int $v)
-qui empêche d'assigner une vitesse négative. -->
-
-
-// <!-- 3. Challenge 3 : Créer une classe CompteBancaire avec un attribut solde privé.
-// Implémenter les méthodes deposer() et retirer() en s'assurant que le solde
-// ne puisse pas devenir négatif. -->
 
 <?php
 
@@ -55,11 +40,22 @@ class CompteBancaire {
 
     private $solde;
 
-    public function deposer ($deposed) {
-        $this->solde += $deposed;
+    public function __construct(int $solde) {
+        $this->solde = $solde;
+    }
+
+    public function deposer (int $deposed) {
+        if ($deposed > 0) {
+        return $this->solde += $deposed;
+        }
     }
 
     public function retier($retier) {
+        if ($retier < $this->solde) {
         $this->solde -= $retier;
+        }
     }
 }
+
+$c1 = new CompteBancaire(30);
+echo $c1->deposer(-20);
