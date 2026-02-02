@@ -51,9 +51,9 @@ class CompteBancaire {
     }
 
     public function retier($retier) {
-        if ($retier < $this->solde) {
-        $this->solde -= $retier;
-        }
+        if ($retier <= $this->solde) {
+            $this->solde -= $retier;
+        }   
     }
 }
 
