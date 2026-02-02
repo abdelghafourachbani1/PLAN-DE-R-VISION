@@ -1,0 +1,21 @@
+1. Quelle est la différence fondamentale entre la composition et l'agrégation ?
+Donnez un exemple pour chacune
+
+composition : it's a fort relation between two tables in uml which mean's if one gone the other also gone
+exemple : the feedbacks can't be exist without watching the match so tables of feedbacks can't be without a ticket tables
+aggregation : it's weak relation between them whatever one of them depend on the other it can be exist if the first one gone
+exemple :  like teacher objects and a shcool if the school gone the teachers are still 
+
+2. Comment lisez-vous une cardinalité (ex: 1..* des deux côtés) ?
+
+that mean's that object with one other object has 1 to many or many to many relation 
+so this object can have 1 or many relation 
+
+3. Qu'est-ce qu'une classe associative et quand l'utilise-t-on ?
+
+when we have a many to many relationship between two table we do a an associative table have wich one of them 
+one to many relation 
+
+3. Challenge 3 : Le diagramme actuel montre une relation incorrecte (ex:
+composition au lieu d'association simple). Identifier l'erreur, la corriger et
+justifier la correction.
