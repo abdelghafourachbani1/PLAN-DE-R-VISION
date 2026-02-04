@@ -11,3 +11,16 @@ if we want to bring all the rows of the table in the right side
 3. Peut-on joindre plus de deux tables dans une seule requête ?
 
 for sure we can, we do from then we can do whatever we want table to join with this one
+
+1. Quelle est la différence entre WHERE et HAVING ?
+
+both add conditions to our querie but one in the normal and the other is after the aggregation(SUM,COUNT...)
+
+2. Dans quel ordre logique SQL exécute-t-il FROM, WHERE, GROUP BY, HAVING,
+SELECT, ORDER BY ?
+
+SELECT -> FROM -> WHER -> GROUP BY -> HAVING 
+
+3. Peut-on utiliser un alias de colonne (AS nom_alias) dans une clause WHERE ?
+Et dans ORDER BY ?
+
