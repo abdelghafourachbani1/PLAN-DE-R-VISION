@@ -1,0 +1,13 @@
+1. Quelle est la différence entre INNER JOIN et LEFT JOIN ?
+
+when we wrrite the query the last table we write it's the left so when we do the left join 
+the query bring all th rows in this table whatever is valid the condition or not 
+In the inner join that's goes on both table not just the one in the left
+
+2. Dans quel cas utiliser un RIGHT JOIN ?
+
+if we want to bring all the rows of the table in the right side 
+
+3. Peut-on joindre plus de deux tables dans une seule requête ?
+
+for sure we can, we do from then we can do whatever we want table to join with this one
