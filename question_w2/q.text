@@ -1,0 +1,14 @@
+1. Comment fonctionne l’héritage en POO ? À quoi sert extends ?
+
+when we extend from a class wich mean's we herite his properties and methods into this child class 
+we do  this by adding extends after naming the class
+
+2. Quelle est la différence entre parent:: et self:: ?
+
+self:: => it returns on the class he exest in and take his self methoss
+parent:: => we useing it in the dild class to take  a parent method and use it
+
+3. Quel est l'impact de la visibilité protected dans le contexte de l'héritage ?
+
+protected is allows that attribute or methos to use only in the class they created in and in the class extends from that classwher she created
+
