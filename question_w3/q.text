@@ -1,0 +1,12 @@
+1. Expliquez la relation "est un" (is-a) dans le contexte de la généralisation.
+
+using this signe we can represent the heritage inour digram de class
+
+2. Pourquoi est-il crucial de maintenir la cohérence entre le diagramme de
+classes et l'implémentation ?
+
+3. Quelle est la différence entre un acteur principal et un acteur secondaire dans
+un diagramme de cas d'utilisation ?
+
+the principal acteur is the main actor of the aplication he's the sibling and the second just integer in some point of the app and 
+
